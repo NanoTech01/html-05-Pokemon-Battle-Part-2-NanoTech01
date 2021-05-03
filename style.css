@@ -1,0 +1,72 @@
+body{
+  font-family: monospace;
+}
+
+#charizard{
+  width: 100%;
+  margin-left: 60px;
+}
+
+#enemyImg {
+  display: inline-block;
+  width: 30%;
+}
+
+#playerImg{
+  display: inline-block;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+#enemy{
+  width: 100%;
+  margin-left: 65%;
+  margin-top: 20px;
+  clear: right;
+}
+
+#screen{
+  width: 1000px;
+  height: 625px;
+  background-color: #CBE6C9;
+  border: 3px solid rgb(111, 124, 111);
+}
+
+#buttons{
+  width: 10%;
+}
+
+.hpBarBox {
+  width: 40%;
+  display: inline-block;
+}
+
+.hpBar{
+  width: 250px;
+  height: 10px;
+  background-color: yellowgreen;
+  border: 5px solid rgb(84, 112, 27);
+  border-radius: 5px;
+  transition-duration: 1s;
+}
+
+#enemyHp{
+  margin-left: 130px;
+  margin-bottom: 150px;
+}
+
+#playerHp{
+  margin-left: 60%;
+  margin-bottom: 80px;
+}
+
+#texts{
+  display: inline-block;
+}
+
+#textBox{
+  margin-left: 60%;
+  font-size: 30px;
+  color: yellowgreen;
+  text-align: right;
+}
