@@ -7,41 +7,24 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    
+    <div id = "texts">
+      <div id = "textBox">
+      </div>
+    </div>
 
     <div id = "screen">
 
-        <div class="hpBarBox">
-          <div class = "hpBar" id = "enemyHp">
-          </div>
+        <div id = "header">
+          <h1>Choose your Pokemon</h1>
         </div>
 
-        <div id="enemyImg">
-          <img src = "https://cdn2.bulbagarden.net/upload/5/56/Spr_1b_006.png" id ="enemy">
-        </div>
-        
-        <div id = "playerImg">
-        <img src = "https://cdn2.bulbagarden.net/upload/archive/0/06/20090826153650%21Spr_b_g1_006.png" id = "charizard">
-        </div>
-
-        <div class = "hpBarBox">
-          <div class = "hpBar" id = "playerHp">
-          </div>
-        </div>
-
-        <div id = "texts">
-          <div id = "textBox">
-          </div>
+        <div id = "pokemons">
+          <img src="https://cdn2.bulbagarden.net/upload/5/56/Spr_1b_006.png" onClick = "charSelect('charizard')">
+          <img src="https://cdn2.bulbagarden.net/upload/5/58/Spr_1b_002.png" onclick = "charSelect('ivysaur')">
+         <img src="https://cdn2.bulbagarden.net/upload/3/30/Spr_1b_007.png" onclick = "charSelect('squirtle')">
         </div>
         
-    </div>
-
-    <div id = "buttons">
-      
-
-      <button onClick = "attack('scratch')">Scratch</button></li>
-      <button onClick = "attack('ember')">Ember</button></li>
-      <button onClick = "attack('flamethrower')">Flamethrower</button></li>
-
     </div>
 
     <script src="script.js"></script>

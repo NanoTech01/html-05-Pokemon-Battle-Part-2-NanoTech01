@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Pokemon</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <div id = "texts">
+      <div id = "textBox">
+      </div>
+    </div>
+
+    <div id = "screen">
+
+        <div class="hpBarBox">
+          <div class = "hpBar" id = "enemyHp">
+          </div>
+        </div>
+
+        <div id="enemyImg">
+          <img src = "https://cdn2.bulbagarden.net/upload/9/98/Missingno_RB.png" id ="enemy">
+        </div>
+        
+        <div id = "playerImg">
+        <img src = "https://cdn2.bulbagarden.net/upload/archive/0/06/20090826153650%21Spr_b_g1_006.png" id = "player">
+        </div>
+
+        <div class = "hpBarBox">
+          <div class = "hpBar" id = "playerHp">
+          </div>
+        </div>
+        
+    </div>
+
+    <div id = "buttons">
+      
+
+      <button onClick = "attack('scratch')">Scratch</button></li>
+      <button onClick = "attack('ember')">Ember</button></li>
+      <button onClick = "attack('flamethrower')">Flamethrower</button></li>
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
